@@ -32,7 +32,7 @@ func NewServeCommand(app core.App, showStartBanner bool) *cobra.Command {
 				}
 			} else {
 				if httpAddr == "" {
-					httpAddr = "127.0.0.1:8090"
+					httpAddr = "0.0.0.0:8090"
 				}
 			}
 
