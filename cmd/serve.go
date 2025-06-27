@@ -28,7 +28,7 @@ func NewServeCommand(app core.App, showStartBanner bool) *cobra.Command {
 					httpAddr = "0.0.0.0:80"
 				}
 				if httpsAddr == "" {
-					httpsAddr = "0.0.0.0:443"
+					httpsAddr = "0.0.0.0:8090"
 				}
 			} else {
 				if httpAddr == "" {
